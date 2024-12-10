@@ -1,0 +1,16 @@
+Handwritten Digit Recognition Results
+================================
+
+Training Accuracy Summary:
+Best K value: 3
+Maximum training accuracy: 97.00%
+
+Confusion Matrix:
+33	0	467
+493	0	7
+65	0	435
+
+Per-Digit Recognition Rates:
+Digit 3: 6.6%
+Digit 6: 0.0%
+Digit 8: 87.0%

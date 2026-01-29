@@ -1,0 +1,40 @@
+# MATLAB temporary files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB compiled files
+*.mex*
+*.p
+
+# Simulink files
+*.slx.autosave
+*.slxc
+slprj/
+
+# Code generation folders
+codegen/
+
+# Results and output files (keeping originals, excluding new generations)
+# Uncomment the following lines if you want to exclude all results
+# results/*.txt
+# results/*.png
+# results/*.jpg
+# results/*.fig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# Logs
+*.log

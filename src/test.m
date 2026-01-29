@@ -15,6 +15,11 @@
 clear all; close all; clc;
 set(0,'DefaultFigureWindowStyle','docked'); % Dock all figures for better organization
 
+% Add paths for utilities and data
+addpath('utils');
+addpath('../data');
+addpath('../results');
+
 % Load the main dataset
 load('usps_main.mat');
 
@@ -276,13 +281,13 @@ disp(['Overall Accuracy: ', num2str(100*sum(diag(confusion_matrix))/sum(confusio
 FigList = findobj(allchild(0), 'flat', 'Type', 'figure');
 for iFig = 1:length(FigList)
     FigHandle = FigList(iFig);
-    FigName   = ['Figure_', num2str(iFig)];
+    FigName   = ['../results/Figure_', num2str(iFig)];
     savefig(FigHandle, FigName);
     saveas(FigHandle, FigName, 'png');
 end
 
 % Export results to text file
-fid = fopen('classification_results.txt', 'w');
+fid = fopen('../results/classification_results.txt', 'w');
 fprintf(fid, 'Handwritten Digit Recognition Results\n');
 fprintf(fid, '================================\n\n');
 fprintf(fid, 'Training Accuracy Summary:\n');

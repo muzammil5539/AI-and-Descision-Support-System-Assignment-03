@@ -17,9 +17,12 @@ A comprehensive implementation of the K-Nearest Neighbors (KNN) algorithm for ha
 - [Usage](#usage)
 - [Algorithm Details](#algorithm-details)
 - [Results](#results)
+- [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+> **🚀 New to the project?** Check out our [Quick Start Guide](docs/QUICKSTART.md) to get running in 5 minutes!
 
 ## 🎯 Overview
 
@@ -243,6 +246,21 @@ The analysis shows:
 - Training accuracy decreases as K increases (expected behavior)
 - Optimal K value is around 3-5 for this dataset
 - Higher K values lead to oversmoothing and reduced accuracy
+
+## 📚 Documentation
+
+Comprehensive documentation is available to help you understand and use this project:
+
+- **[Quick Start Guide](docs/QUICKSTART.md)** - Get up and running in 5 minutes
+- **[Algorithm Documentation](docs/ALGORITHM.md)** - Detailed explanation of KNN algorithm and implementation
+- **[Contributing Guidelines](CONTRIBUTING.md)** - How to contribute to the project
+- **[License](LICENSE)** - MIT License details
+
+### Additional Resources
+
+- **Code Documentation**: All MATLAB functions include detailed inline documentation
+- **Examples**: See the main `test.m` script for comprehensive usage examples
+- **Issues & Discussions**: Visit our [GitHub Issues](https://github.com/muzammil5539/AI-and-Descision-Support-System-Assignment-03/issues) page
 
 ## 🤝 Contributing
 
